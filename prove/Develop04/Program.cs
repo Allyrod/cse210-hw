@@ -1,9 +1,10 @@
 using System;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
-        Console.WriteLine("Hello Develop04 World!");
+        Application app = new Application();
+        app.DisplayMenu();
     }
 }
